@@ -19,7 +19,7 @@ We define a harmonious array as an array where the difference between its maximu
 
 Given an integer array  `nums` , return the length of its longest harmonious subsequence among all its possible subsequences.
 
-OriginalJava **Example 1:**
+**Example 1:**
 
 **Input:**  nums = [1,3,2,2,5,2,3,7]
 

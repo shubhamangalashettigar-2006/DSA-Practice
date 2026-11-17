@@ -1,6 +1,6 @@
 # 📝 344. Reverse String (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/reverse-string/?utm_source=chatgpt.com)
+🔗 [Problem Link](https://leetcode.com/problems/reverse-string/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Two Pointers, String
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 47.7 MB
 
 ---
 
@@ -19,7 +19,7 @@ Write a function that reverses a string. The input string is given as an array o
 
 You must do this by modifying the input array  [in-place](https://en.wikipedia.org/wiki/In-place_algorithm)  with  `O(1)`  extra memory.
 
-OriginalJava **Example 1:**
+**Example 1:**
 
 ```
 Input: s = ["h","e","l","l","o"]

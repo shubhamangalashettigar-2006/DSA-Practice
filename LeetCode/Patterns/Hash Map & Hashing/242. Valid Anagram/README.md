@@ -2,14 +2,14 @@
 
 🔗 [Problem Link](https://leetcode.com/problems/valid-anagram/)
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
 ### 💡 Tags
 Hash Table, String, Sorting
 
 ### 🚀 Performance
-- **Runtime:** 6 ms
-- **Memory:** 44 MB
+- **Runtime:** 0 ms
+- **Memory:** 9.7 MB
 
 ---
 

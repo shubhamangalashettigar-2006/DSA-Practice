@@ -1,6 +1,6 @@
 # 📝 150. Evaluate Reverse Polish Notation (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/evaluate-reverse-polish-notation)
+🔗 [Problem Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
@@ -8,8 +8,8 @@
 Array, Math, Stack
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 3 ms
+- **Memory:** 17.2 MB
 
 ---
 
@@ -34,7 +34,7 @@ Evaluate the expression. Return  *an integer that represents the value of the ex
 	
 - The answer and all the intermediate calculations can be represented in a  **32-bit**  integer.
 
-OriginalC++ **Example 1:**
+**Example 1:**
 
 ```
 Input: tokens = ["2","1","+","3","*"]

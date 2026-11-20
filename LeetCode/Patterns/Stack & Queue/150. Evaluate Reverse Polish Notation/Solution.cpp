@@ -27,6 +27,6 @@ public:
                 st.push(res);
             }
         }
-        return res;
+        return st.top();
     }
 };

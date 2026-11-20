@@ -1,6 +1,6 @@
 # 📝 150. Evaluate Reverse Polish Notation (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/evaluate-reverse-polish-notation)
+🔗 [Problem Link](https://leetcode.com/problems/evaluate-reverse-polish-notation/?envType=study-plan-v2&envId=top-interview-150)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-C++-blue)
 

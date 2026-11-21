@@ -26,7 +26,7 @@ Implement the  `RandomizedSet`  class:
 	
 - `int getRandom()`  Returns a random element from the current set of elements (it's guaranteed that at least one element exists when this method is called). Each element must have the  **same probability**  of being returned.
 
-You must implement the functions of the class such that each function works in  **average**   `O(1)`  time complexity.
+You must implement the functions of the class such that each function works in  **average**   `O(1)`  time complexity.
 
 **Example 1:**
 
@@ -54,6 +54,6 @@ randomizedSet.getRandom(); // Since 2 is the only number in the set, getRandom()
 	
 - `-231 <= val <= 231 - 1`
 	
-- At most  `2 *`  `105`  calls will be made to  `insert` ,  `remove` , and  `getRandom` .
+- At most  `2 * 105`  calls will be made to  `insert` ,  `remove` , and  `getRandom` .
 	
 - There will be  **at least one**  element in the data structure when  `getRandom`  is called.

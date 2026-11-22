@@ -11,7 +11,7 @@ public:
             continue;
         }
         else if(isdigit(ch)){
-            int num=0;
+            long num=0;
             while(i<n&&isdigit(s[i])){
                 num=num*10+(s[i]-'0');
                 i++;

@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 27 / 238 (11.3%)
+- **Completed:** 28 / 238 (11.8%)
 
 ---
 
@@ -292,7 +292,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ### 📂 PART  2: STACKS Topics Covered: 1. Stack
 - [x] [Evaluate Reverse Polish Notation](./C++/Medium/150. Evaluate Reverse Polish Notation/)
-- [ ] Basic Calculator
+- [x] [Basic Calculator](./C++/Hard/224. Basic Calculator/)
 - [ ] Basic Calculator II
 - [ ] Backspace String Compare
 - [ ] Baseball Game

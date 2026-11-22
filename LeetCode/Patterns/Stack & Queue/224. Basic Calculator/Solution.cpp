@@ -11,7 +11,7 @@ public:
             continue;
         }
         else if(isdigit(ch)){
-            long num=0;
+            long long num=0;
             while(i<n&&isdigit(s[i])){
                 num=num*10+(s[i]-'0');
                 i++;
@@ -54,7 +54,7 @@ public:
         postfix+=st.top()+" ";
         st.pop();
     }
-    stack<int> st1;
+    stack<long long> st1;
     stringstream ss(postfix);
     string token;
     while(ss>>token){
@@ -76,7 +76,7 @@ public:
             }
         }
         else{
-            st1.push(stoi(token));
+            st1.push(stoll(token));
         }
     }
     return st1.top();

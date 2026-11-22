@@ -1,6 +1,6 @@
 # 📝 224. Basic Calculator (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/basic-calculator/?envType=study-plan-v2&envId=top-interview-150)
+🔗 [Problem Link](https://leetcode.com/problems/basic-calculator/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
@@ -19,7 +19,7 @@ Given a string  `s`  representing a valid expression, implement a basic calculat
 
 **Note:**  You are  **not**  allowed to use any built-in function which evaluates strings as mathematical expressions, such as  `eval()` .
 
-OriginalC++ **Example 1:**
+**Example 1:**
 
 ```
 Input: s = "1 + 1"

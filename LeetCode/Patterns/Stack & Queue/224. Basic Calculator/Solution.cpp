@@ -17,12 +17,68 @@ public:
                 i++;
             }
             postfix+=to_string(num)+" ";
-            expectoperand=false;
             i--;  
+            expectoperand=false;
         }
         else if(ch=='('){
-            st.push('(');
+            st.push("(");
             expectoperand=true;
         }
+        else if(ch==')'){
+            while(!st.empty() && st.top()!="("){
+                postfix+=st.top()+" ";
+                st.pop();
+            }
+            st.pop();
+            if(!st.empty()&&st.top()=="NEG"){
+                postfix+="NEG ";
+                st.pop();
+            }
+            expectoperand=false;
+        }
+        else if(ch=='+'||ch=='-'){
+            if(ch=='-'&&expectoperand){
+                st.push("NEG");
+                continue;
+            }
+            while(!st.empty()&&st.top()!="("){
+                postfix+=st.top()+" ";
+                st.pop();
+            }
+            string op(1,ch);
+            st.push(op);
+            expectoperand=true;
+        }
+    }
+    while(!st.empty()){
+        postfix+=st.top()+" ";
+        st.pop();
+    }
+    stack<int> st1;
+    stringstream ss(postfix);
+    string token;
+    while(ss>>token){
+        if(token=="NEG"){
+            int a=st1.top();
+            st1.pop();
+            st1.push(-a);
+        }
+        else if(token=="+"||token=="-"){
+            int a=st1.top();
+            st1.pop();
+            int b=st1.top();
+            st1.pop();
+            if(token=="+"){
+                st1.push(b+a);
+            }
+            if(token=="-"){
+                st1.push(b-a);
+            }
+        }
+        else{
+            st1.push(stoi(token));
+        }
+    }
+    return st1.top();
     }
 };

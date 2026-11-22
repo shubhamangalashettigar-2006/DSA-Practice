@@ -59,7 +59,7 @@ public:
     string token;
     while(ss>>token){
         if(token=="NEG"){
-            int a=st1.top();
+            l a=st1.top();
             st1.pop();
             st1.push(-a);
         }

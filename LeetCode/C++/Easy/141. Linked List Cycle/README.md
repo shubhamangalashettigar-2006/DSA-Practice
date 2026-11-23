@@ -1,6 +1,6 @@
 # 📝 141. Linked List Cycle (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/linked-list-cycle/?envType=study-plan-v2&envId=top-interview-150)
+🔗 [Problem Link](https://leetcode.com/problems/linked-list-cycle/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 

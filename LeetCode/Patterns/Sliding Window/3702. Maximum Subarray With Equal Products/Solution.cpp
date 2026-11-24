@@ -15,6 +15,8 @@ public:
             int g=0;
             long long lcm=1;
             for(int j=i;j<n;j++){
+                if (prod > 25200LL / nums[j])
+                    break;
                 prod*=nums[j];
                 g=gcd(g,nums[j]);
                 lcm=lcm*nums[j]/gcd(lcm,nums[j]);

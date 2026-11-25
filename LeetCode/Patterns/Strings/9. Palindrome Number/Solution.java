@@ -1,6 +1,6 @@
 class Solution {
     public boolean isPalindrome(int x) {
-        int rev=0;
+        long rev=0;
         int t=x;
         if(x<0){
             return false;
@@ -13,6 +13,6 @@ class Solution {
         if(x==rev){
             return true;
         }
-    return false;
+    return x==rev;
     }
 }

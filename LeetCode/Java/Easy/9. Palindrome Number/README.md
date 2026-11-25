@@ -17,7 +17,7 @@ Math
 
 Given an integer  `x` , return  `true`  if  `x`  is a  **palindrome** , and  `false`  otherwise.
 
-OriginalJava **Example 1:**
+**Example 1:**
 
 ```
 Input: x = 121

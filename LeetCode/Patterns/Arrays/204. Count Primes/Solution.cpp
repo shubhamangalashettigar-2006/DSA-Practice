@@ -8,11 +8,9 @@ public:
                     break;
                 }
                 if(j==i){
-                cnt++;
+                    cnt++;
+                }
             }
-            }
-            
-
         }
         return cnt;
     }

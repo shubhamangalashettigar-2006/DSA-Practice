@@ -12,9 +12,9 @@ public:
                     prime=false;
                     break;
                 }
-                if(prime){
-                    cnt++;
-                }
+            }
+            if(prime){
+                cnt++;
             }
         }
         return cnt;

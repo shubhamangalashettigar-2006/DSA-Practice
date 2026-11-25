@@ -1,6 +1,6 @@
 # 📝 204. Count Primes (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/count-primes)
+🔗 [Problem Link](https://leetcode.com/problems/count-primes/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
@@ -17,7 +17,7 @@ Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Num
 
 Given an integer  `n` , return  *the number of prime numbers that are strictly less than*   `n` .
 
-OriginalC++ **Example 1:**
+**Example 1:**
 
 ```
 Input: n = 10

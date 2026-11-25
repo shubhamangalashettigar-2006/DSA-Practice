@@ -8,8 +8,8 @@
 Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Number Sieve
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 201 ms
+- **Memory:** 14.1 MB
 
 ---
 

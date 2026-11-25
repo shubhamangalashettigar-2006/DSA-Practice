@@ -8,8 +8,8 @@
 Math
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 2153 ms
+- **Memory:** 40.8 MB
 
 ---
 
@@ -19,7 +19,7 @@ A  [**perfect number**](https://en.wikipedia.org/wiki/Perfect_number)  is a  **p
 
 Given an integer  `n` , return  `true`  *if*  `n`  *is a perfect number, otherwise return*  `false` .
 
-OriginalJava **Example 1:**
+**Example 1:**
 
 ```
 Input: num = 28

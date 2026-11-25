@@ -17,7 +17,7 @@ Array, Math, Enumeration, Number Theory, Primality Test, Sieve Theory, Prime Num
 
 Given an integer  `n` , return  *the number of prime numbers that are strictly less than*   `n` .
 
-**Example 1:**
+OriginalC++ **Example 1:**
 
 ```
 Input: n = 10

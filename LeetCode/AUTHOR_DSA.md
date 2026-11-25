@@ -24,7 +24,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ### 📂 MODULE  2.3: FACTORS, DIVISORS & PERFECT
 - [ ] Three Divisors
-- [x] [Perfect Number](./Java/Easy/507. Perfect Number/)
+- [x] [Perfect Number](./C++/Easy/507. Perfect Number/)
 - [ ] Divisor Game
 - [ ] Find the Winning Player in Coin Game
 

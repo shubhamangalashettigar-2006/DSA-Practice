@@ -2,14 +2,14 @@
 
 🔗 [Problem Link](https://leetcode.com/problems/perfect-number/)
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
 ### 💡 Tags
 Math
 
 ### 🚀 Performance
-- **Runtime:** 2153 ms
-- **Memory:** 40.8 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 

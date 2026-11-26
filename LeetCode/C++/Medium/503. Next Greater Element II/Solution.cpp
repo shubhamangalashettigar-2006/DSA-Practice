@@ -8,7 +8,7 @@ public:
         }
         int m=2*n;
         vector<int> ans(n,-1);
-        for(int i=m;i>=0;i--){
+        for(int i=m-1;i>=0;i--){
             while(!st.empty()&&st.top()<=nums[i]){
                 st.pop();
             }

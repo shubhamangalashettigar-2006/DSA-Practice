@@ -9,9 +9,9 @@ public:
             if(nums[i]>nums[i-1]){
                 inc++;
             }
-            else{
-                inc=1;
-            }
+            // else{
+            //     inc=1;
+            // }
             ans=max(ans,inc);
             
             //decrement

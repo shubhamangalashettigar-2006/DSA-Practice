@@ -15,7 +15,7 @@ public:
             if(!st.empty()){
                 ans[i%n]=st.top();
             }
-            st.push(nums[i]);
+            st.push(n);
         }
         return ans;
     }

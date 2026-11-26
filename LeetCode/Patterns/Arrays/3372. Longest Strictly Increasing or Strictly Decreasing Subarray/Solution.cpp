@@ -17,11 +17,11 @@ public:
             //decrement
             if(nums[i]<nums[i-1]){
                 dec++;
-                ans=max(ans,dec);
             }
             else{
                 dec=1;
             }
+            ans=max(ans,dec);
             
         }
         return ans ;

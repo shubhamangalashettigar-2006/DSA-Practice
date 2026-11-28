@@ -9,7 +9,7 @@ public:
         int left=0;
         while(right<n){
             sum+=nums[right];
-            long opr=nums[right]*(right-left+1)-sum;
+            long long opr=nums[right]*(right-left+1)-sum;
             while(opr>k){
                 sum-=nums[left];
                 left++;

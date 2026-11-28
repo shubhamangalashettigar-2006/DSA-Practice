@@ -8,8 +8,8 @@
 Graph Theory
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 137 ms
+- **Memory:** 134.4 MB
 
 ---
 
